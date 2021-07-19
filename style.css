@@ -1,0 +1,44 @@
+h1{
+    padding: 20px;
+    margin: auto;
+    color:red;
+    background-color:rgb(172, 116, 200);
+    text-align: center;
+    text-decoration: underline;
+}
+
+#main{
+    border: 2px solid burlywood;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 480px;
+    background-color: rgb(248, 241, 241);
+    
+}
+
+.inp{
+    width: 420px;
+    height: 50px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+}
+
+@media(max-width: 700px){
+    h1{
+        width: auto;
+    }
+    #main{
+        width: 310px;
+        margin-left: 150px;
+    }
+    .inp{
+        width: 300px;
+        
+    }
+    .btn{
+        width: 70px;
+    }
+}
